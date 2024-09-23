@@ -7,14 +7,13 @@ body {
   --secondcolor: white;
 }
 /* start navber */
-header {
+ header {
   background-color: var(--maincolor);
   color: var(--secondcolor);
   padding: 40px 0;
   text-align: center;
   position: relative;
-}
-
+} 
 header::after {
   content: "";
   position: absolute;
@@ -25,11 +24,9 @@ header::after {
   height: 5px;
   background-color: var(--secondcolor);
 }
-
+ 
 nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 nav a {
   color: var(--secondcolor);
@@ -39,9 +36,8 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+  color: var(--secondcolor) !important;
 }
-
-
 
 /* end navbar */
 /* start article */
